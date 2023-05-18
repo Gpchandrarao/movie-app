@@ -1,0 +1,30 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  height: 100%;
+}
+
+.root-container {
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home-sizes-container {
+  height: 70vh;
+  width: 100%;
+}
+
+.trending-now-heading,
+.originals-heading,
+.popular-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31.27px;
+  margin-left: 40px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}

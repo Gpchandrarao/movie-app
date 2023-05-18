@@ -1,0 +1,51 @@
+.main-popular-bg-black-container {
+  background-color: #131313;
+}
+
+.popular-result-container {
+  padding: 20px;
+  height: 100vh;
+  height: 100%;
+}
+
+.popular-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.popular-li-item {
+  padding: 15px;
+}
+
+.popular-poster {
+  height: 200px;
+  width: 120px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  /* .main-popular-bg-black-container {
+    width: 100%;
+  } */
+  .popular-poster {
+    height: 130px;
+    width: 50px;
+    border-radius: 8px;
+  }
+  .popular-li-item {
+    padding: 10px;
+  }
+}
+.explore-movies-here {
+  color: #ffffff;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
